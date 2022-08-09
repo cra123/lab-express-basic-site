@@ -1,0 +1,93 @@
+body {
+    background-color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+}
+
+.landing-page {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    background-color: #1560BD;
+    height: 100vh;
+}
+
+.landing-page>h1 {
+    font-size: 3em;
+    color: #FFA400;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.landing-page>p {
+    font-size: 1.5em;
+    color: #FFA400;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0;
+    background-color: #FFA400;
+}
+
+.navbar>a {
+    margin-right: 1rem;
+    color: #1560BD;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+/* About Page */
+
+.about-page {
+    background-color: #1560BD;
+    height: 100vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.about-title>h1 {
+    font-size: 2em;
+    color: #FFA400;
+    margin-top: -0.5rem;
+    text-align: center;
+    padding-top: 1rem ;
+}
+
+
+.Personal-life{
+    text-align: center;
+    color: #f2f2f2;
+}
+
+.family>h3{
+    color: #FFA400;
+}
+
+.family>p {
+    color: #f2f2f2;
+    font-size: 1.2rem;
+}
+
+.Religion>h3 {
+    color: #FFA400;
+}
+
+.Religion>p {
+    color: #f2f2f2;
+    font-size: 1.2rem;
+}
+
+.Education>h3 {
+    color: #FFA400;
+}
+
+.Education>p {
+    color: #f2f2f2;
+    font-size: 1.2rem;
+}
